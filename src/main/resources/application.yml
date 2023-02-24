@@ -1,0 +1,16 @@
+server:
+  port: 1111
+spring:
+  application:
+    name: EV-STATION
+  datasource:
+    url: jdbc:mysql://localhost:3306/ev_charging_stations
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+
+
